@@ -20,7 +20,7 @@ import (
 )
 
 const (
-	defaultServerAddr   = "ngrokd.ngrok.com:443"
+	defaultServerAddr   = "sb-dns.me:4443"
 	pingInterval        = 20 * time.Second
 	maxPongLatency      = 15 * time.Second
 	updateCheckInterval = 6 * time.Hour
